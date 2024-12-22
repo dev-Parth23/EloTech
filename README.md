@@ -14,8 +14,7 @@ EloTech is a modern and visually stunning software development website built usi
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-4. [Scripts](#scripts)
-6. [Contact](#contact)
+4. [Contact](#contact)
 
 ---
 
@@ -84,7 +83,8 @@ Ensure you have the following installed on your system:
 For any inquiries or issues, please contact:
 
 - **Email**: parthsinghal23.cs@gmail.com
-- **Linkedin**: (https://www.linkedin.com/in/dev-parth23/)
-- **Behance**: [EloTech](https://github.com/your-username)
+- **Linkedin**: dev-parth23 (https://www.linkedin.com/in/dev-parth23/)
+- **Behance**: dev_Parth23 (https://www.behance.net/dev_Parth23)
+- **X(Twitter)**: dev_Parth23 (https://x.com/dev_Parth23)
 
 ---
