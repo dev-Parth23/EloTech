@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+@layer base {
+  @font-face {
+    font-family: 'Font1';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/Font1.woff2) format('woff2');
+  }
+}
+@layer base {
+  @font-face {
+    font-family: 'Font2';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/Font2.woff) format('woff');
+  }
+}
+
+
+@layer base {
+@font-face {
+  font-family: 'Font5';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/Font5.woff2) format('woff2');
+}
+}
+@layer base {
+@font-face {
+  font-family: 'Font6';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/Font6.woff2) format('woff2');
+}
+}
+@layer base {
+@font-face {
+  font-family: 'Font4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/Font4.woff2) format('woff2');
+}
+}
+@layer base {
+@font-face {
+  font-family: 'Font3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/Font3.woff2) format('woff2');
+}
+}
+@layer base {
+@font-face {
+  font-family: 'Font7';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/Font7.woff2) format('woff2');
+}
+}
+.text-border {
+  -webkit-text-stroke: 2px #AAAAAA; 
+  color: transparent;
+}
