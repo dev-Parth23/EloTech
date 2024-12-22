@@ -83,8 +83,8 @@ Ensure you have the following installed on your system:
 For any inquiries or issues, please contact:
 
 - **Email**: parthsinghal23.cs@gmail.com
-- **Linkedin**: dev-parth23 (https://www.linkedin.com/in/dev-parth23/)
-- **Behance**: dev_Parth23 (https://www.behance.net/dev_Parth23)
-- **X(Twitter)**: dev_Parth23 (https://x.com/dev_Parth23)
+- **Linkedin**: https://www.linkedin.com/in/dev-parth23
+- **Behance**: https://www.behance.net/dev_Parth23
+- **X(Twitter)**: https://x.com/dev_Parth23
 
 ---
