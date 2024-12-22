@@ -14,8 +14,7 @@ EloTech is a modern and visually stunning software development website built usi
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-4. [Project Structure](#project-structure)
-5. [Scripts](#scripts)
+4. [Scripts](#scripts)
 6. [Contact](#contact)
 
 ---
@@ -49,7 +48,7 @@ Follow these instructions to get a copy of the project running on your local mac
 Ensure you have the following installed on your system:
 
 - **Node.js**: [Download Node.js](https://nodejs.org/)
-- **npm** or **yarn**: Comes with Node.js (or install Yarn separately).
+- **npm**: Comes with Node.js .
 
 ### Installation
 
@@ -80,42 +79,12 @@ Ensure you have the following installed on your system:
 
 ---
 
-## Project Structure
-
-```plaintext
-elotech-website/
-├── public/            # Static assets
-├── src/
-│   ├── components/    # React components
-│   ├── assets/        # Images, fonts, and media
-│   ├── styles/        # Global and component-specific styles
-│   ├── App.js         # Main React app file
-│   ├── index.js       # Entry point
-│   └── utils/         # Helper functions and utilities
-├── package.json       # Project metadata and dependencies
-├── README.md          # Project documentation
-└── .gitignore         # Ignored files for Git
-```
-
----
-
-## Scripts
-
-- **`npm start`**: Runs the development server.
-- **`npm build`**: Builds the app for production.
-- **`npm test`**: Runs tests (if implemented).
-- **`npm run lint`**: Checks for linting issues (if configured).
-
----
-
 ## Contact
 
 For any inquiries or issues, please contact:
 
-- **Email**: contact@elotech.com
-- **Website**: [www.elotech.com](http://www.elotech.com)
-- **GitHub**: [EloTech](https://github.com/your-username)
+- **Email**: parthsinghal23.cs@gmail.com
+- **Linkedin**: (https://www.linkedin.com/in/dev-parth23/)
+- **Behance**: [EloTech](https://github.com/your-username)
 
 ---
-
-Thank you for using EloTech! We strive to bring elegance, innovation, and performance to every project.
