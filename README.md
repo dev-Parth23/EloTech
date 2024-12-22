@@ -1,10 +1,24 @@
-![image](https://github.com/user-attachments/assets/f4cb5b24-aec4-459f-b927-962369f1327f)
-![image](https://github.com/user-attachments/assets/5999271c-b20b-4bd2-bbb9-ceda6e5cf34a)
-
-
 # EloTech Website
 
+![EloTech Website 1](https://github.com/user-attachments/assets/f4cb5b24-aec4-459f-b927-962369f1327f)
+![EloTech Website 2](https://github.com/user-attachments/assets/5999271c-b20b-4bd2-bbb9-ceda6e5cf34a)
+
 EloTech is a modern and visually stunning software development website built using **React**, **Three.js**, and **GSAP**. This project showcases cutting-edge web development technologies and delivers an elegant, interactive user experience. The website is designed to highlight EloTech's IT services and solutions, combining creativity, innovation, and performance.
+
+---
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+4. [Project Structure](#project-structure)
+5. [Scripts](#scripts)
+6. [Contact](#contact)
+
+---
 
 ## Features
 
@@ -14,13 +28,17 @@ EloTech is a modern and visually stunning software development website built usi
 - **Responsive Design**: Fully optimized for all devices, including desktops, tablets, and mobile phones.
 - **Customizable Components**: Modular React components for easy scalability and maintainability.
 
+---
+
 ## Technologies Used
 
 - **React**: For building a responsive and interactive user interface.
+- **Tailwind CSS**: For modern, utility-first styling.
 - **Three.js**: For rendering 3D graphics and animations.
 - **GSAP (GreenSock Animation Platform)**: For creating smooth animations and scroll-based effects.
-- **Tailwind CSS**: For modern, utility-first styling.
-- **Webpack/Babel**: For bundling and transpiling the code.
+- **Vite**: For bundling and transpiling the code.
+
+---
 
 ## Getting Started
 
@@ -46,16 +64,12 @@ Ensure you have the following installed on your system:
 
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. Start the development server:
 
    ```bash
    npm start
-   # or
-   yarn start
    ```
 
 4. Open your browser and navigate to:
@@ -63,6 +77,8 @@ Ensure you have the following installed on your system:
    ```
    http://localhost:3000
    ```
+
+---
 
 ## Project Structure
 
@@ -81,6 +97,8 @@ elotech-website/
 └── .gitignore         # Ignored files for Git
 ```
 
+---
+
 ## Scripts
 
 - **`npm start`**: Runs the development server.
@@ -88,46 +106,7 @@ elotech-website/
 - **`npm test`**: Runs tests (if implemented).
 - **`npm run lint`**: Checks for linting issues (if configured).
 
-## Deployment
-
-To deploy the website:
-
-1. Build the project for production:
-
-   ```bash
-   npm run build
-   ```
-
-2. Deploy the contents of the `build/` directory to your preferred hosting service (e.g., Netlify, Vercel, AWS).
-
-## Contributions
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix:
-
-   ```bash
-   git checkout -b feature-name
-   ```
-
-3. Commit your changes:
-
-   ```bash
-   git commit -m "Add feature/bugfix description"
-   ```
-
-4. Push to your branch:
-
-   ```bash
-   git push origin feature-name
-   ```
-
-5. Open a pull request and describe your changes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
 ## Contact
 
