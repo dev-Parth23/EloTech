@@ -18,17 +18,11 @@ function MarqueeRow({ imageURL, direction }) {
 
 function Marquee({ images }) {
   return (
-    <div className="py-10 w-full bg-black overflow-hidden">
+    <div className="w-full py-10 bg-[#151518] overflow-hidden">
       {images.map((imageSet, index) => (
         <div key={index} className="relative flex gap-10">
-          <MarqueeRow
-            imageURL={imageSet}
-            direction={index % 2 === 0 ? "left" : "right"}
-          />
-          <MarqueeRow
-            imageURL={imageSet}
-            direction={index % 2 === 0 ? "left" : "right"}
-          />
+          <MarqueeRow imageURL={imageSet} direction={index % 2 === 0 ? "left" : "right"}/>
+          <MarqueeRow imageURL={imageSet} direction={index % 2 === 0 ? "left" : "right"}/>
         </div>
       ))}
     </div>

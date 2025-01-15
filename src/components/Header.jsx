@@ -1,19 +1,23 @@
 import React from "react";
 import Button from "./Button";
 
-const Header = ({title}) => {
+const Header = () => {
   return (
-    <nav className="h-24 w-full backdrop-blur-lg flex justify-between items-center px-8">
+    <nav className="flex justify-between items-center w-full h-24 px-8 backdrop-blur-lg">
       <div className="w-1/5">
-        <a href="/home" className="uppercase text-3xl font-[Font1] tracking-wider text-white">
-          Elo.Tech
-        </a>
+        <a href="/home" className="text-3xl font-[Font1] tracking-wider text-white uppercase">
+          Elo.Tech</a>
       </div>
 
-      <div className="gap-14 ml-72 flex flex-nowrap font-[Font2] text-center justify-between">
-        <a href="/about" className="text-lg font-medium hover:underline underline-offset-8">About</a>
-        <a href="/services"className="text-lg font-medium hover:underline underline-offset-8">Services</a>
-        <a href="/projects" className="text-lg font-medium hover:underline underline-offset-8">Our Work</a>
+      <div className="flex justify-between gap-10 ml-72 font-[Font2] text-center">
+        <a href="/about" className="text-lg font-medium hover:underline underline-offset-8">
+          About</a>
+        <a href="/services" className="text-lg font-medium hover:underline underline-offset-8">
+          Services</a>
+        <a href="/services" className="text-lg font-medium text-nowrap hover:underline underline-offset-8">
+          Team</a>
+        <a href="/projects" className="text-lg font-medium hover:underline underline-offset-8">
+          Projects</a>
       </div>
       <Button title="Contact" />
     </nav>

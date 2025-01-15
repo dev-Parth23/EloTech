@@ -23,7 +23,7 @@ const CustomCursor = () => {
         y: clientY,
         duration: 0.2,
         ease: "bounce.out",
-          });
+      });
     };
 
     window.addEventListener("mousemove", moveCursor);
@@ -48,8 +48,6 @@ const CustomCursor = () => {
         className="fixed top-0 left-0 w-10 h-10 bg-blue-500 bg-opacity-30 rounded-full pointer-events-none z-40"
         style={{ transform: "translate(-50%, -50%)" }}
       ></div>
-
-    
     </div>
   );
 };

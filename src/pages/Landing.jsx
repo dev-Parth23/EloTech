@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/Header"; // Import the Header component
+import Header from "../components/Header";
 import video from "../assets/bg.mp4";
 import { GoArrowDown } from "react-icons/go";
 
@@ -20,14 +20,14 @@ const Landing = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % textArray.length);
-    }, 1500); // Change text every 1.5 seconds
+    }, 1500); 
 
-    return () => clearInterval(interval); // Cleanup the interval on unmount
+    return () => clearInterval(interval); 
   }, []);
 
   return (
     <div className="relative w-full h-screen">
-      <div  className="absolute top-0 left-0 w-full h-full z-0">
+      <div className="absolute top-0 left-0 w-full h-full z-0">
         <video
           className="object-cover w-full h-full"
           autoPlay
@@ -51,7 +51,9 @@ const Landing = () => {
         <span className="bg-black text-[#ffffff] rounded-full p-3">
           <GoArrowDown />
         </span>
-        <h4 className="text-black font-[Font1] font-medium">Scroll to Explore</h4>
+        <h4 className="text-black font-[Font1] font-medium">
+          Scroll to Explore
+        </h4>
       </div>
     </div>
   );
