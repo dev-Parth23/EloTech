@@ -6,6 +6,8 @@ import Services from "./pages/Services";
 import CustomCursor from "./components/CustomCursor";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
+import Explore from "./components/Explore";
 
 const App = () => {
   var images = [
@@ -46,7 +48,7 @@ const App = () => {
   ];
 
   return (
-    <div className="text-white bg-[#151518] scroll-container">
+    <div className="text-white">
       <CustomCursor />
       <Landing />
       <Marquee images={images} />
@@ -54,25 +56,9 @@ const App = () => {
       <Services />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };
 
 export default App;
-
-// SVG Animation component
-// const SVG = () => (
-//   <svg viewBox="0 0 1362 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-//     <motion.path
-//       d="M0 1.5H571.719C590.957 1.5 609.914 6.12563 626.99 14.9869L667.51 36.0131C684.586 44.8744 703.543 49.5 722.781 49.5H1362"
-//       stroke="#EBFD40"
-//       strokeWidth="2"
-//       initial={{ pathLength: 0, pathOffset: 1 }}
-//       animate={{ pathLength: 1, pathOffset: 0 }}
-//       transition={{
-//         duration: 2,
-//         ease: "easeInOut",
-//       }}
-//     />
-//   </svg>
-// );
