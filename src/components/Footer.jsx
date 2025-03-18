@@ -33,11 +33,11 @@ const Footer = () => {
   return (
     <div className="w-screen h-screen pt-10 flex flex-col items-center justify-center">
       <div className="w-[90vw] h-[25%] bg-[#151518] flex justify-between pl-20 gap-32">
-        <div className="w-1/3 flex gap-3">
-          <div className="border uppercase shrink-0 border-white w-fit rounded-full h-fit px-3 py-2">
+        <div className="w-1/3 flex gap-3 items-center">
+          <div className="border uppercase shrink-0 border-white w-fit rounded-full h-fit items-center px-3 py-2">
             Year Founded
           </div>
-          <h2 className="font-medium text-7xl pt-8 font-[font7]">
+          <h2 className="font-medium text-7xl font-[font7]">
             <span className="hover:mix-blend-color-burn transition duration-300">
               2
             </span>
@@ -52,11 +52,11 @@ const Footer = () => {
             </span>
           </h2>
         </div>
-        <div className="w-2/3 flex gap-3">
+        <div className="w-2/3 flex gap-3 items-center">
           <div className="border uppercase border-white w-fit rounded-full h-fit px-3 py-2">
             Location{" "}
           </div>
-          <h2 className="font-medium text-7xl pt-8 font-[font7]">
+          <h2 className="font-medium text-7xl font-[font7]">
             <span className="hover:mix-blend-color-burn transition duration-300">
               A
             </span>
@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom box shape */}
-      <div className="w-[90vw] h-[75%] bg-[#EBFD40] rounded-t-lg overflow-hidden text-black">
+      <div className="w-[90vw] h-[75%] rounded-t-lg overflow-hidden text-black">
         <div className="w-full flex justify-around h-fit py-7">
           {data.map((item, index) => (
             <div key={index} className="flex flex-col gap-2">

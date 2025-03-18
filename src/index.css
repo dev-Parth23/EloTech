@@ -10,7 +10,6 @@
   background: yellow;
 }
 
-
 @layer base {
   @font-face {
     font-family: 'Font1';
