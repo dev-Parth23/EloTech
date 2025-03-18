@@ -96,8 +96,8 @@ const Footer = () => {
         <div className="w-full flex justify-around h-fit py-7">
           {data.map((item, index) => (
             <div key={index} className="flex flex-col gap-2">
-              <h2 className="font-[font1] text-[#ff0749]">{item.heading}</h2>
-              <div className="flex flex-col gap-1 font-[font5] text-[#222222]">
+              <h2 className="font-[font6] text-[#ff0749]">{item.heading}</h2>
+              <div className="flex flex-col gap-1 font-[font4] text-[#222222]">
                 <h2 className="hover:mix-blend-hard-light transition duration-300">
                   {item.data1}
                 </h2>
